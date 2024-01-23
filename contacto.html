@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Contacto</title>
+	</head>
+	<body>
+		<div class="container-sm">
+			<h1>Contacto</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html">Inicio</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						
+						<li class="nav-item active">
+							<a class="nav-link" href="porfolio.html"
+								>Porfolio </a
+							>
+							<li class="nav-item active">
+							<a class="nav-link" href="contacto.html"
+								>Contacto </a
+							>
+						</li>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<form method="post" action="alta">
+				<div class="mb-3">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" class="form-control" id="email" name="email" />
+				</div>
+				<div class="mb-3">
+					<label for="unidades" class="form-label">Unidades</label>
+					<input type="number" class="form-control" name="unidades" />
+				</div>
+				<div class="mb-3">
+					<label for="date">Dia de hoy</label>
+<input id="date" class="form-control" type="date" name="date"/>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
